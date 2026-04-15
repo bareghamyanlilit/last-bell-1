@@ -30,7 +30,7 @@ export function Home() {
       <div>
         <button
           onClick={() => setIsPlaying(!isPlaying)}
-          className="fixed z-10 p-1  rounded-2xl bg-[#4a4a4a81]  right-7 top-7 w-15  h-15 flex justify-center items-center"
+          className="fixed z-10 p-1  rounded-2xl bg-[#24242417]  right-7 top-7 w-15  h-15 flex justify-center items-center"
         >
           <Image
             src="/icon1.png"
