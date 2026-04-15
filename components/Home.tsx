@@ -3,7 +3,7 @@ import Image from "next/image";
 import { TimeBox } from "./TimeBox";
 import { useState } from "react";
 import { MusicPlayer } from "./music";
-import { anim, txt1, txt1_1, txt2, txt2_1, txt3 } from "@/data/data";
+import { anim, txt1,  txt2,  txt3 } from "@/data/data";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
