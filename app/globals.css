@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@font-face {
+/* @font-face {
   font-family: "ArmDecorativeU";
   src: url("/font/ArmenianDecorativeU-Italic.woff2");
 }
@@ -18,11 +18,11 @@
 @font-face {
   font-family: "Babylonica-Regular";
   src: url("/font/Babylonica-Regular.ttf");
-}
+} */
 
 @font-face {
   font-family: "Adamathuz";
-  src: url("/font/adamathuz-Bold.ttf");
+  src: url("/font/AdamathuzBold.woff2");
 }
 
 @font-face {
@@ -30,20 +30,20 @@
   src: url("/font/HFMassisShantNUnicode.ttf");
 }
 
+.FontAdamathuz {
+  font-family: "Adamathuz";
+}
 .FontMassis {
   font-family: "FontMassis";
 }
 
-.FontSHK_Dzeragir {
+/* .FontSHK_Dzeragir {
   font-family: "SHK_Dzeragir";
 }
 .FontBabylonica-Regular {
   font-family: "Babylonica-Regular";
 }
 
-.FontAdamathuz {
-  font-family: "Adamathuz";
-}
 .FontArmDecorativeU {
   font-family: "ArmDecorativeU";
 }
@@ -54,7 +54,7 @@
 
 .FontAkronim {
   font-family: "Akronim";
-}
+} */
 
 /* latin */
 @font-face {
@@ -99,8 +99,8 @@
   color: #000000cc;
 }
 .text-vrayi {
-  color: #412600;
+  color: #1f1f1f;
 }
 .text-taki {
-  color: #41260017;
+  color: #24242417;
 }

@@ -133,17 +133,53 @@ export function Home() {
         </p>
       </motion.h3>
 
-      <motion.h3 {...anim} className="text-vrayi FontMassis text-4xl">
+      <motion.h3 {...anim} className=" mb-20 text-vrayi FontMassis text-4xl">
         ՄԻԼԻՈՆԱՎՈՐ ՀԻՇՈՂՈՒԹՅՈՒՆՆԵՐ
       </motion.h3>
 
-      <Image
-        src="/img3.png"
-        alt="icon1"
-        width={500}
-        height={500}
-        className="w-full  object-cover my-20 "
-      />
+      <div 
+        className=" h-auto bg-contain bg-repeat py-10"
+        style={{ backgroundImage: "url('/icon6.png')" }}>
+        <div className="px-3 ml-10 grayscale-100 -rotate-7 w-[60%]  mt-10">
+          <Image
+            src="/img7.jpg"
+            alt="icon1"
+            width={500}
+            height={500}
+            className="w-full my-3 rounded-3xl  "
+          />
+        </div>
+
+        <div className="px-3 ml-35 grayscale-100 my-15  rotate-7  w-[60%] ">
+          <Image
+            src="/img8.jpg"
+            alt="icon1"
+            width={500}
+            height={500}
+            className="w-full my-3 rounded-3xl  "
+          />
+        </div>
+
+        <div className="px-3 ml-10  grayscale-100   -rotate-7 w-[60%]  ">
+          <Image
+            src="/img9.jpg"
+            alt="icon1"
+            width={500}
+            height={500}
+            className="w-full my-3 rounded-3xl  "
+          />
+        </div>
+
+        <div className="px-3 ml-35 grayscale-100 mt-15  rotate-7 w-[60%] ">
+          <Image
+            src="/img10.jpg"
+            alt="icon1"
+            width={500}
+            height={500}
+            className="w-full my-3 rounded-3xl  "
+          />
+        </div>
+      </div>
 
       <motion.p {...anim} className="my-30 text-vrayi FontMassis text-3xl">
         {txt3}
@@ -164,6 +200,14 @@ export function Home() {
         height={500}
         className=" w-32 mx-auto object-cover my-20"
       />
+{/*       
+      <Image
+        src="/img3.png"
+        alt="icon1"
+        width={500}
+        height={500}
+        className="w-full  object-cover my-20 "
+      /> */}
     </div>
   );
 }
