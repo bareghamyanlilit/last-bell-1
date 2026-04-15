@@ -3,18 +3,18 @@ import "./globals.css";
 import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: "Կարեն և Լիկա",
-  description: "Կարեն և Լիկա",
+  title: "ՎԵՐՋԻՆ ԶԱՆԳԻ",
+  description: "ՎԵՐՋԻՆ ԶԱՆԳԻ",
   openGraph: {
-    title: "Կարենի և Լիկայի նշանադրության հրավիրատոմս",
+    title: "ՎԵՐՋԻՆ ԶԱՆԳԻ հրավիրատոմս",
     description: "Նշանադրության հրավիրատոմս",
-    url: "https://wedding-invitation-3.vercel.app/",
-    siteName: "Կարեն և Լիկա",
+    url: "https://site-up-verjin-zang-1.vercel.app/",
+    siteName: "ՎԵՐՋԻՆ ԶԱՆԳԻ",
     images: [
       {
         url: "/img1.jpg",
         width: 1200,
-        height: 630,
+        height: 350,
       },
     ],
     locale: "en_US",
