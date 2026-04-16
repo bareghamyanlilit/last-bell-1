@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "ՎԵՐՋԻՆ ԶԱՆԳԻ",
   openGraph: {
     title: "ՎԵՐՋԻՆ ԶԱՆԳԻ հրավիրատոմս",
-    description: "Նշանադրության հրավիրատոմս",
+    description: "ՎԵՐՋԻՆ ԶԱՆԳԻ հրավիրատոմս",
     url: "https://site-up-verjin-zang-1.vercel.app/",
     siteName: "ՎԵՐՋԻՆ ԶԱՆԳԻ",
     images: [
